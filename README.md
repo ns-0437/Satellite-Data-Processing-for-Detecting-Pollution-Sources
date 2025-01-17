@@ -33,7 +33,7 @@ The dataset comprises 90 different animal images. Initially, we'll structure it 
 - Plot the output of all convolutional layers and discuss the insights on automatically created features.
 - Analyze feature maps to understand which patterns the model focuses on for each class, providing interpretability for the classification decisions.
 - Visualize filters and gradients to identify the layers that contribute most to model performance and highlight potential areas for optimization.
-- Apply Grad CAM (Gradient-weighted Class Activation Mapping) to produce heatmaps, indicating regions of interest in the input images for classification.
+- Apply Grad-CAM (Gradient-weighted Class Activation Mapping) to produce heatmaps, indicating regions of interest in the input images for classification.
 - Explore activation histograms for different layers to understand activation distributions and detect potential issues with dead neurons.
 - Compare feature maps across training, validation, and test sets to evaluate generalization.
 - Document all findings to guide future improvements in both data preparation and model design.
